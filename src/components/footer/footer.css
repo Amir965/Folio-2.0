@@ -1,0 +1,13 @@
+.footer {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+p{
+    text-align: center;
+}
+span{
+    color: rgb(226, 27, 109);
+}
