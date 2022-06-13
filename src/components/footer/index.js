@@ -1,10 +1,11 @@
 import React from 'react'
 import "./footer.css"
-import Separator from "../common/separator/index"
+import FooterSeparator from "../common/separator/footer-separator.js"
+
 const Footer = () => {
   return (
-    <div>
-      <Separator/>
+    <div className='footer'>
+      <FooterSeparator /> 
       <p>
         &copy; {new Date().getFullYear()}. <span>Md Amir Alam</span>. All Rights Reserved.
       </p>

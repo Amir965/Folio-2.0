@@ -26,6 +26,11 @@
     font-size: 24px;
     font-weight: 600;
 }
+.company-names{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(226, 27, 109);
+}
 .work-desc {
     text-align: left;
     display: -webkit-box;
