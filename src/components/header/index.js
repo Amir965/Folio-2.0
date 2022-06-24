@@ -26,7 +26,8 @@ const Header = () => {
         </div>
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>
-            <i className="fi fi-rr-align-center menu-icon"></i>
+            {/* <i className="fi fi-rr-align-center menu-icon"></i> */}
+            <img src={require("../../assets/icons/menus.png")} alt="menu" className='menu-icon' style={{width:"30px"}}/>
           </div>
           {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>

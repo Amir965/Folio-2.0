@@ -5,22 +5,22 @@ const Web = () => {
     <div className="web">
       <div className="web-option">
         <a href="#projects">
-          <i className="fi fi-rr-edit-alt option-icon"></i>Projects
+          <i class="fi fi-rr-edit option-icon"></i>Projects
         </a>
       </div>
       <div className="web-option">
         <a href="#skills">
-          <i className="fi fi-rr-laptop option-icon"></i>Skills
+          <i className="fi fi-rs-laptop option-icon"></i>Skills
         </a>
       </div>
       <div className="web-option">
         <a href="#work">
-          <i className="fi fi-rr-briefcase option-icon"></i>Work
+          <i className="fi fi-rs-briefcase option-icon"></i>Work
         </a>
       </div>
       <div className="web-option">
         <a href="#contact">
-          <i className="fi fi-rr-user option-icon"></i>Contact
+          <i className="fi fi-br-address-book option-icon"></i>Contact
         </a>
       </div>
     </div>
