@@ -62,7 +62,7 @@
 }
 
 /* for donwaload button */
-/* .button.dark-single {
+.button.dark-single {
     --background: none;
     --rectangle: #242836;
     --success: #4BC793;
@@ -409,4 +409,4 @@
     100% {
         transform: scaleY(1);
     }
-} */
+}
